@@ -26,6 +26,7 @@ const nextConfig = {
   {
     return {
       '/': { page: '/' },
+      '/dashbord': { page: '/dashbord' },
       '/404': { page: '/404' },
       '/api/hello': { page: '/api/hello', query: { title: 'hello-nextjs' } },
     }
